@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.form{
+    width:45%;
+    margin:0 auto;
+}
+
+fieldset{
+    padding: 1.5rem;
+}
+
+legend{
+    font-size: 2rem;
+    color: blue;
+}
+
+label, input{
+    display: block;
+    margin-bottom: .9rem;
+}
+
+
+/* Products */
+p{
+    margin-bottom: .9rem;
+}
+
+.products label, .products input{
+    display: inline-block;
+}
+
+.inline{
+    display: inline-block !important;
+}
+.block{
+    display: block !important;
+}
+
+.medium-weight{
+    font-weight: 400;
+}
+
+input[type^="bu"]{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(0, 174, 0);
+    color:rgb(255, 255, 255);
+    border-radius: .7rem;
+    border: none;
+}

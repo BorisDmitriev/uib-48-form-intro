@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+
+        <form action="" method="post" class="form">
+
+            <fieldset>
+                <legend>Personal Data</legend>
+
+                <div class="form-group">
+                    <label for="fistname">First name:</label>
+                    <input type="text" name="firstname" id="fistname">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="street">Street:</label>
+                    <input type="text" name="street" id="street">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="zip">Zipcode:</label>
+                    <input type="text" name="zip" id="zip">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Tell us more about important colors, etc."></textarea>
+                </div>
+
+            </fieldset>
+
+
+            <fieldset class="products">
+
+                <legend>Products</legend>
+
+                <p class="form-label">Web Design:</p>
+                <div class="form-group inline">
+                    <input type="radio" id="individual" name="web-design" value="individual">
+                    <label for="web-design" class="medium-weight">Individual</label>
+                </div>
+                <div class="form-group inline">
+                    <input type="radio" id="template" name="web-design" value="template">
+                    <label for="template" class="medium-weight">Template</label>
+                </div>
+
+                <p class="form-label">Web development:</p>
+                <div class="form-group">
+                    <label for="html" class="medium-weight">HTML & CSS</label>
+                    <input type="checkbox" id="html" name="checkbox" value="htmlcss">
+                </div>
+                <div class="form-group">
+                    <label for="js" class="medium-weight">JavaScript</label>
+                    <input type="checkbox" id="js" name="checkbox" value="js">
+                </div>
+                <div class="form-group">
+                    <label for="md" class="medium-weight">MongoDB</label>
+                    <input type="checkbox" id="md" name="checkbox" value="mongo">
+                </div>
+
+                <div class="form-group">
+                    <label for="dstart" class="block">Project Start:</label>
+                    <input type="date" id="dstart" class="block">
+                </div>
+                <div class="form-group">
+                    <label for="dend" class="block" >Project End:</label>
+                    <input type="date" id="dend" class="block">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="category" class="block">Category:</label>
+                    <select class="block"name="category" id="category">
+                        <option value="personal">Personal</option>
+                        <option value="business">Business</option>
+                        <option value="government">Government</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <input type="button" value="Order our services">
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
